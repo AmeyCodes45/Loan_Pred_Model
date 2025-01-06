@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Prediction</title>
+</head>
+<body>
+    <h1>Loan Prediction Form</h1>
+    <form action="/predict" method="POST">
+        <label for="Gender">Gender:</label>
+        <select name="Gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+        
+        <label for="Married">Married:</label>
+        <select name="Married" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <label for="Dependents">Dependents:</label>
+        <input type="text" name="Dependents" required><br><br>
+
+        <label for="Education">Education:</label>
+        <select name="Education" required>
+            <option value="Graduate">Graduate</option>
+            <option value="Not Graduate">Not Graduate</option>
+        </select><br><br>
+
+        <label for="Self_Employed">Self Employed:</label>
+        <select name="Self_Employed" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <label for="ApplicantIncome">Applicant Income:</label>
+        <input type="number" name="ApplicantIncome" required><br><br>
+
+        <label for="CoapplicantIncome">Coapplicant Income:</label>
+        <input type="number" name="CoapplicantIncome" required><br><br>
+
+        <label for="LoanAmount">Loan Amount:</label>
+        <input type="number" name="LoanAmount" required><br><br>
+
+        <label for="Loan_Amount_Term">Loan Amount Term:</label>
+        <input type="number" name="Loan_Amount_Term" required><br><br>
+
+        <label for="Credit_History">Credit History:</label>
+        <input type="number" name="Credit_History" step="0.1" required><br><br>
+
+        <label for="Property_Area">Property Area:</label>
+        <select name="Property_Area" required>
+            <option value="Urban">Urban</option>
+            <option value="Semiurban">Semiurban</option>
+            <option value="Rural">Rural</option>
+        </select><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
