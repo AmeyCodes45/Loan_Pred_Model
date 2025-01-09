@@ -1,6 +1,5 @@
-flask
 Flask
 pandas
 joblib
-pickle-mixin
+scikit-learn
 gunicorn
