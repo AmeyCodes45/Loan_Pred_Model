@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loan Prediction Result</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Loan Prediction Result</h1>
-    <p>Your loan status is: <strong>{{ prediction }}</strong></p>
-    <a href="/">Predict Again</a>
+    <div class="container">
+        <header class="header">
+            <h1>Loan Prediction</h1>
+        </header>
+        <section class="result-section">
+            <h1>Loan Prediction Result</h1>
+            <p>Your loan status is: <strong>{{ prediction }}</strong></p>
+            <a href="index.html">Predict Again</a>
+        </section>
+    </div>
 </body>
 </html>

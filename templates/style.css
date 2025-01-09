@@ -1,0 +1,126 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #f8f8f8, #e0e0e0);
+    color: #333;
+    background-image: url("dollar.webp");
+    background-size: cover;
+    
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    /* background-color: #007BFF; */
+    background-color: rgb(12, 42, 67,0.9);
+    /* color: #fff; */
+    color: #a3912d;
+    padding: 20px;
+    border-radius: 8px;
+}
+    
+.header h1 {
+    font-size: 2.5rem;
+}
+
+/* Form Section */
+.form-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+.form-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+}
+.form-group input{
+    width: 97.5%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+} 
+.submit-btn {
+    /* background-color: #28a745; */
+    background-color: #0c2a43;
+    color: #fff;
+    /* border: 2px solid #1e7e34; */
+    border: 2px solid #0c2a43;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+.submit-btn:hover {
+    /* background-color: #1e7e34; */
+    background-color: #0c2a43db;
+}
+
+/* Result Section */
+.result-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.result-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+.result-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #666;
+}
+.result {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 20px;
+}
+.return-home {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.return-home:hover {
+    background-color: #0056b3;
+}

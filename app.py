@@ -26,7 +26,7 @@ def predict():
         'Self_Employed': request.form['Self_Employed'],
         'ApplicantIncome': float(request.form['ApplicantIncome']),
         'CoapplicantIncome': float(request.form['CoapplicantIncome']),
-        'LoanAmount': float(request.form['LoanAmount']),
+        'LoanAmount': float(request.form['LoanAmount'])/ 1000,
         'Loan_Amount_Term': float(request.form['Loan_Amount_Term']),
         'Credit_History': float(request.form['Credit_History']),
         'Property_Area': request.form['Property_Area']
