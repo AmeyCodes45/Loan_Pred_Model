@@ -7,8 +7,8 @@ import pickle
 app = Flask(__name__)
 
 # Load the trained model and training columns
-model = joblib.load('loan_prediction_model.pkl')
-with open('training_columns.pkl', 'rb') as file:
+model = joblib.load('gradient_boosting_model.pkl')
+with open('new_training_columns.pkl', 'rb') as file:
     training_columns = pickle.load(file)
 
 @app.route('/')
