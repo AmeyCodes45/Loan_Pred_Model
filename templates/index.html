@@ -36,7 +36,7 @@
                 <div class="form-group">
                     <label for="Dependents">Dependents: </label>
                     <input type="number" name="Dependents" placeholder="Dependents" required>
-                    
+                    <p class="hint">Enter the number of dependents in your household.</p>
                 </div>
         
                 <div class="form-group">
@@ -49,7 +49,7 @@
                 </div>
         
                 <div class="form-group">
-                    <label for="Self_Employed">Self_Employed:</label>
+                    <label for="Self_Employed">Self Employed:</label>
                     <select name="Self_Employed" required>
                         <option value="" disabled selected>Select</option> 
                         <option value="Yes">Yes</option>
@@ -58,46 +58,48 @@
                 </div>
         
                 <div class="form-group">
-                    <label for="ApplicantIncome">ApplicantIncome:</label>
-                    <input type="number" name="ApplicantIncome" placeholder="ApplicantIncome" required>
-                    
+                    <label for="ApplicantIncome">Applicant Income:</label>
+                    <input type="number" name="ApplicantIncome" placeholder="Applicant Income" required>
+                    <p class="hint">Provide your income in whole numbers (e.g., 3000).</p>
                 </div>
         
                 <div class="form-group">
-                    <label for="CoapplicantIncome">CoapplicantIncome:</label>
-                    <input type="number" name="CoapplicantIncome" placeholder="CoapplicantIncome" required>
-                    
+                    <label for="CoapplicantIncome">Coapplicant Income:</label>
+                    <input type="number" name="CoapplicantIncome" placeholder="Coapplicant Income" required>
+                    <p class="hint">Enter 0 if there is no coapplicant.</p>
                 </div>
         
                 <div class="form-group">
-                    <label for="LoanAmount">LoanAmount:</label>
-                    <input type="number" name="LoanAmount" placeholder="LoanAmount" required>
-                    
+                    <label for="LoanAmount">Loan Amount:</label>
+                    <input type="number" name="LoanAmount" placeholder="Loan Amount" required>
+                    <p class="hint">Enter the total loan amount you are applying for.</p>
                 </div>
         
                 <div class="form-group">
-                    <label for="Loan_Amount_Term">Loan_Amount_Term:</label>
-                    <input type="number" name="Loan_Amount_Term" placeholder="Loan_Amount_Term" required>
-                    
+                    <label for="Loan_Amount_Term">Loan Amount Term:</label>
+                    <input type="number" name="Loan_Amount_Term" placeholder="Loan Amount Term" required>
+                    <p class="hint">Specify the repayment term in months (e.g., 360 for 30 years).</p>
                 </div>
         
                 <div class="form-group">
-                    <label for="Credit_History">Credit_History:</label>
+                    <label for="Credit_History">Credit History:</label>
                     <select name="Credit_History" required>
                         <option value="" disabled selected>Select</option> 
                         <option value="1">Good</option>
                         <option value="0">Bad</option>
                     </select>
+                    <p class="hint">Choose 'Good' if you have a positive credit history.</p>
                 </div>
         
                 <div class="form-group">
-                    <label for="Property_Area">Property_Area:</label>
+                    <label for="Property_Area">Property Area:</label>
                     <select name="Property_Area" required>
                         <option value="" disabled selected>Select</option> 
                         <option value="Urban">Urban</option>
                         <option value="Semiurban">Semiurban</option>
                         <option value="Rural">Rural</option>
                     </select>
+                    <p class="hint">Select the location type of the property.</p>
                 </div>
                 <button type="submit" class="submit-btn">Predict</button>
             </form>
